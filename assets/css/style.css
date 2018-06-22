@@ -1,0 +1,399 @@
+
+html {
+    
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: outset;
+    border-bottom-color: lavender;
+    margin: auto;
+}
+
+body {
+    background-color: #cbd0d4de;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.title {
+    margin: auto;
+    width: 960px;
+}
+
+.yourname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    width: 25%;
+    padding-top: 17px;
+    padding-bottom: 18.5px;
+    margin-bottom: -10%;
+}
+
+.contact, .portfolio, .about {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #77777777;
+    padding: 5px;
+    margin-top: 15px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+.contact {
+    background-color: #ffffffff;
+    width: 100px;
+    float: right;
+} 
+
+.portfolio {
+    background-color: #ffffffff;
+    width: 100px;
+    float: right;
+    border-right-color: #77777777;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+.about {
+    background-color:  #ffffffff;
+    width: 100px;
+    float: right;
+    border-right-color: #77777777;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+.content {
+    background-color: #ffffff;
+    clear: both;
+    width: 960px;
+    margin: auto;
+}
+
+.text {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    height: 500px;
+    padding: 25px;
+    margin-top: 5%;
+    overflow: auto;
+}
+
+.subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 16pt;
+    border-bottom: 2.5px solid #cccccccc;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.image {
+    clear: both;
+    width: 200px;
+    height:150px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+    width: 100%;
+    clear: both;
+    height: 125px;
+    margin-top: 242.5px;
+    position: relative;
+    bottom: 0;
+}
+
+/* =============================================   Portfolio CSS   ============================================ */
+/* =============================================   Portfolio CSS   ============================================ */
+#portfoliofooter {
+    background-color: #666666;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+    width: 100%;
+    clear: both;
+    height: 125px;
+    margin-top: 142.5px;
+    position: relative;
+    bottom: 0;
+}
+
+#pictureframe {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    padding: 25px;
+    margin-top: 5%;
+    overflow: auto;
+}
+
+.portfolioimages{
+    width: 450px;
+    margin-left: 140px;
+    margin-right: 120px;
+    padding-left: 79px;
+    padding-right: 69px;
+}
+
+#image1 {
+    clear: both;
+    width: 200px;
+    height:150px;
+    float: left;
+    padding: 10px;
+}
+
+#image2 {
+    clear: both;
+    width: 200px;
+    height:150px;
+    padding: 10px;
+}
+
+#image3 {
+    width: 200px;
+    height:150px;
+    float: left;
+    padding: 10px;
+}
+
+#image4 {
+    width: 200px;
+    height:150px;
+    padding: 10px;
+}
+
+#image5 {
+    width: 200px;
+    height:150px;
+    float: left;
+    padding: 10px;
+}
+
+#image6 {
+    width: 200px;
+    height:150px;
+    padding: 10px;
+}
+
+#imagetext1 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+}
+
+#text1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+#imagetext2 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -57.5px;
+    float: right;
+    clear: both;
+}
+#text2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+#imagetext3 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+}
+#text3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+#imagetext4 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -57.5px;
+    float: right;
+    clear: both;
+}
+#text4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+#imagetext5 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    color: #ffffff;
+    width: 200px;
+    height: 37.5px;
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+}
+#text5 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+#imagetext6 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -57.5px;
+    float: right;
+    clear: both;
+}
+#text6 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+
+/* =============================================   Contact CSS   ============================================ */
+/* =============================================   Contact CSS   ============================================ */
+
+#contactname {
+
+}
+
+#namefield {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    border-width: thin;
+    border-color: silver;
+    border-style: solid;
+    padding-left: 10px; 
+    max-height: 25px;
+    resize: none;
+    overflow: auto;
+    width: 899px;
+}
+
+#email {
+
+}
+
+#emailfield {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    border-width: thin;
+    border-color: silver;
+    border-style: solid;
+    padding-left: 10px;
+    width: 899px;
+    max-height: 25px;
+    resize: none;
+    overflow: auto;
+
+}
+
+#message {
+
+}
+
+#messagetext {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    border-width: thin;
+    border-color: silver;
+    border-style: solid;
+    padding-left: 10px;
+    min-width: 899px;;
+    max-width: 899px;
+    min-height: 75px;
+    max-height: 200px;
+    overflow: auto;
+
+
+}
+
+#submit {
+    color: #4aaaa5;
+
+
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    height: 25px;
+    width: 75px;
+    border-radius: 10%;
+
+}
+
+button:hover {
+    background-color: #4aaaa5;
+    color: white
+}
+
+button:selection {
+
+} 
