@@ -434,6 +434,17 @@ button:selection {
             min-width: 485px;
             max-height: 175px;
         }
+        footer {
+            width: 100%;
+            margin: 0;
+            position: absolute;
+        }
+
+        #portfoliofooter {
+            /* margin: 0; */
+            position: absolute;
+        }
+
     }
 
 /* ===================================================  768px  ============================================================================ */
@@ -483,6 +494,16 @@ button:selection {
         .contact {
             margin-right: 15px;
         }
+        footer {
+            width: 100%;
+            margin: 0;
+            position: absolute;
+        }
+
+        #portfoliofooter {
+            /* margin: 0; */
+            position: absolute;
+        }
 
 
     }
@@ -519,6 +540,7 @@ button:selection {
 
         .content {
             width: 100%;
+            /* height: 700px; */
             height: 700px;
             margin: auto;
         }
@@ -526,6 +548,7 @@ button:selection {
         .text {
             /* width: 400px; */
             height: 650px;
+            overflow: hidden;
         }
 
         #namefield {
@@ -622,9 +645,14 @@ button:selection {
     
         footer {
             width: 100%;
+            /* margin: 0; */
+            position: absolute;
         }
 
         #portfoliofooter {
+            /* margin: 0; */
+            position: absolute;
+
 
         }
 
