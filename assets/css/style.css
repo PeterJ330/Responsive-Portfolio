@@ -370,8 +370,6 @@ footer {
     min-height: 75px;
     max-height: 200px;
     overflow: auto;
-
-
 }
 
 #submit {
@@ -516,16 +514,12 @@ button:selection {
             width: 100%;
         }
         
-        /* body {
-            width: 414px;
-        } */
 
         .title {
             width: 100%;
             margin: 0;
         }
         .yourname {
-            /* margin-left: 40px; */
             margin: auto;
             width: 100%;
             float: left;
@@ -533,9 +527,21 @@ button:selection {
 
         .contact, .portfolio, .about {
             font-size: 80%;
-            width: 80px;
             margin: auto;
-            
+            display: inline;
+        }
+
+        .about {
+            float: left;
+            width: 30%;
+        }
+
+        .portfolio {
+            width: 32.25%;
+        }
+
+        .contact {
+            width: 30%;
         }
 
         .content {
