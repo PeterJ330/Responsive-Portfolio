@@ -490,213 +490,138 @@ button:selection {
 /* ===================================================  640px  ============================================================================ */
 
 @media screen and (max-width: 640px){
-    body {
-        background-color: orange;
-    }
+        header {
+            width: 100%;
+        }
 
-    header {
-        width: 100%;
-    }
+        .title {
+            width: 100%;
+            margin: 0;
+        }
+        .yourname {
+            /* margin-left: 40px; */
+            margin: auto;
+            width: 100%;
+            float: left;
+        }
 
-    .title {
-        width: 100%;
-        margin: 0;
+        .contact, .portfolio, .about {
+            font-size: 80%;
+            width: 80px;
+            margin: auto;
+            /* float: left; */
+            /* clear: both; */
+        }
 
-    }
+        .content {
+            width: 600px;
+            height: 750px;
+            margin: auto;
+        }
 
+        .text {
+            height: 700px;
+        }
 
-    .yourname {
-        /* margin-left: 40px; */
-        margin: auto;
-        width: 100%;
-        float: left;
-    }
+        #namefield {
+            width: 537px;
+        }
+        
+        #emailfield {
+            width: 537px;
+        }
 
-    .contact, .portfolio, .about {
-        font-size: 80%;
-        width: 80px;
-        margin: auto;
-        /* float: left; */
-        /* clear: both; */
-    }
+        #messagetext {
+            max-width: 537px;
+            min-width: 537px;
+            max-height: 175px;
+        }
 
-    .content {
-        width: 600px;
-        margin: auto;
-    }
+        .portfolioimages {
+            /* margin: 0; */
+            /* padding: 0; */
+            margin: auto;
+            width: 520px;
+        }
 
-    #namefield {
-        width: 537px;
-    }
+        #image1 {
+            width: 500px;
+            height:375px;
+        }
+        
+        #image2 {
+            width: 500px;
+            height:375px;
+            margin-top: 10px;
+        }
+        
+        #image3 {
+            width: 500px;
+            height:375px;
+            margin-top: 10px;
+        }
+        
+        #image4 {
+            width: 500px;
+            height:375px;
+            margin-top: 10px;
+        }
+        
+        #image5 {
+            width: 500px;
+            height:375px;
+            margin-top: 10px;
+        }
+        
+        #image6 {
+            width: 500px;
+            height:375px;
+            margin-top: 10px;
+        }
+        
+        #imagetext1 {
+            width: 500px;
+            height: 37.5px;
+        }
     
-    #emailfield {
-        width: 537px;
-    }
+        #imagetext2 {
+            width: 500px;
+            height: 37.5px;
+            float: none;
+            margin-left: 10px;
+        }
+    
+        #imagetext3 {
+            width: 500px;
+            height: 37.5px;
+        }
+        
+        #imagetext4 {
+            width: 500px;
+            height: 37.5px;
+            float: none;
+            margin-left: 10px;
+        }
+    
+        #imagetext5 {
+            width: 500px;
+            height: 37.5px;
+        }
+        
+        #imagetext6 {
+            width: 500px;
+            height: 37.5px;
+            float: none;
+            margin-left: 10px;
+        }
+    
+        footer {
+            width: 100%;
+        }
 
-    #messagetext {
-        max-width: 537px;
-        min-width: 537px;
-        max-height: 175px;
-    }
+        #portfoliofooter {
 
-    #image1 {
-        clear: both;
-        width: 200px;
-        height:150px;
-        float: left;
-        padding: 10px;
-    }
-    
-    /* #image2 {
-        clear: both;
-        width: 200px;
-        height:150px;
-        padding: 10px;
-    }
-    
-    #image3 {
-        width: 200px;
-        height:150px;
-        float: left;
-        padding: 10px;
-    }
-    
-    #image4 {
-        width: 200px;
-        height:150px;
-        padding: 10px;
-    }
-    
-    #image5 {
-        width: 200px;
-        height:150px;
-        float: left;
-        padding: 10px;
-    }
-    
-    #image6 {
-        width: 200px;
-        height:150px;
-        padding: 10px;
-    } */
-    
-    #imagetext1 {
-        background-color: #4aaaa5;
-        opacity: 0.90;
-        width: 200px;
-        height: 37.5px;
-        margin-left: 10px;
-        margin-top: -55px;
-        float: left;
-        clear: both;
-    }
-    
-    #text1 {
-        color: #ffffff;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding-top: 7px;
-    }
-    
-    /* #imagetext2 {
-        background-color: #4aaaa5;
-        opacity: 0.90;
-        width: 200px;
-        height: 37.5px;
-        position: relative;
-        margin-right: 20px;
-        margin-top: -57.5px;
-        float: right;
-        clear: both;
-    }
-    #text2 {
-        color: #ffffff;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding-top: 7px;
-    }
-    
-    #imagetext3 {
-        background-color: #4aaaa5;
-        opacity: 0.90;
-        width: 200px;
-        height: 37.5px;
-        margin-left: 10px;
-        margin-top: -55px;
-        float: left;
-        clear: both;
-    }
-    #text3 {
-        color: #ffffff;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding-top: 7px;
-    }
-    
-    #imagetext4 {
-        background-color: #4aaaa5;
-        opacity: 0.90;
-        width: 200px;
-        height: 37.5px;
-        position: relative;
-        margin-right: 20px;
-        margin-top: -57.5px;
-        float: right;
-        clear: both;
-    }
-    #text4 {
-        color: #ffffff;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding-top: 7px;
-    }
-    
-    #imagetext5 {
-        background-color: #4aaaa5;
-        opacity: 0.90;
-        color: #ffffff;
-        width: 200px;
-        height: 39px;
-        margin-left: 10px;
-        margin-top: -55px;
-        float: left;
-        clear: both;
-    }
-    #text5 {
-        color: #ffffff;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding-top: 7px;
-    }
-    
-    #imagetext6 {
-        background-color: #4aaaa5;
-        opacity: 0.90;
-        width: 200px;
-        height: 37.5px;
-        position: relative;
-        margin-right: 20px;
-        margin-top: -57.5px;
-        float: right;
-        clear: both;
-    }
-    #text6 {
-        color: #ffffff;
-        text-align: center;
-        font-size: 16pt;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding-top: 7px;
-    } */
+        }
 
 
-    footer {
-        width: 100%;
-    }
-
-
-}
+  }
