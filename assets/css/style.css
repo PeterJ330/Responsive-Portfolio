@@ -436,13 +436,14 @@ button:selection {
         }
         footer {
             width: 100%;
-            margin: 0;
-            position: absolute;
+            /* margin: 0; */
+            /* position: absolute; */
         }
 
         #portfoliofooter {
+            width: 100%;
             /* margin: 0; */
-            position: absolute;
+            /* position: absolute; */
         }
 
     }
@@ -496,13 +497,13 @@ button:selection {
         }
         footer {
             width: 100%;
-            margin: 0;
-            position: absolute;
+            /* margin: 0; */
+            /* position: absolute; */
         }
 
         #portfoliofooter {
             /* margin: 0; */
-            position: absolute;
+            /* position: absolute; */
         }
 
 
@@ -646,12 +647,12 @@ button:selection {
         footer {
             width: 100%;
             /* margin: 0; */
-            position: absolute;
+            /* position: absolute; */
         }
 
         #portfoliofooter {
             /* margin: 0; */
-            position: absolute;
+            /* position: absolute; */
 
 
         }
