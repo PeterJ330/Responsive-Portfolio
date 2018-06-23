@@ -493,6 +493,10 @@ button:selection {
         header {
             width: 100%;
         }
+        
+        /* body {
+            width: 414px;
+        } */
 
         .title {
             width: 100%;
@@ -514,26 +518,27 @@ button:selection {
         }
 
         .content {
-            width: 600px;
-            height: 750px;
+            width: 100%;
+            height: 700px;
             margin: auto;
         }
 
         .text {
-            height: 700px;
+            /* width: 400px; */
+            height: 650px;
         }
 
         #namefield {
-            width: 537px;
+            width: 351px;
         }
         
         #emailfield {
-            width: 537px;
+            width: 351px;
         }
 
         #messagetext {
-            max-width: 537px;
-            min-width: 537px;
+            max-width: 351px;
+            min-width: 351px;
             max-height: 175px;
         }
 
@@ -541,75 +546,75 @@ button:selection {
             /* margin: 0; */
             /* padding: 0; */
             margin: auto;
-            width: 520px;
+            width: 400px;
         }
 
         #image1 {
-            width: 500px;
-            height:375px;
+            width: 364px;
+            height:273px;
         }
         
         #image2 {
-            width: 500px;
-            height:375px;
+            width: 364px;
+            height:273px;
             margin-top: 10px;
         }
         
         #image3 {
-            width: 500px;
-            height:375px;
+            width: 364px;
+            height:273px;
             margin-top: 10px;
         }
         
         #image4 {
-            width: 500px;
-            height:375px;
+            width: 364px;
+            height:273px;
             margin-top: 10px;
         }
         
         #image5 {
-            width: 500px;
-            height:375px;
+            width: 364px;
+            height:273px;
             margin-top: 10px;
         }
         
         #image6 {
-            width: 500px;
-            height:375px;
+            width: 364px;
+            height:273px;
             margin-top: 10px;
         }
         
         #imagetext1 {
-            width: 500px;
+            width: 364px;
             height: 37.5px;
         }
     
         #imagetext2 {
-            width: 500px;
+            width: 364px;
             height: 37.5px;
             float: none;
             margin-left: 10px;
         }
     
         #imagetext3 {
-            width: 500px;
+            width: 364px;
             height: 37.5px;
         }
         
         #imagetext4 {
-            width: 500px;
+            width: 364px;
             height: 37.5px;
             float: none;
             margin-left: 10px;
         }
     
         #imagetext5 {
-            width: 500px;
+            width: 364px;
             height: 37.5px;
         }
         
         #imagetext6 {
-            width: 500px;
+            width: 364px;
             height: 37.5px;
             float: none;
             margin-left: 10px;
