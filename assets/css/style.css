@@ -279,7 +279,7 @@ footer {
     opacity: 0.90;
     color: #ffffff;
     width: 200px;
-    height: 37.5px;
+    height: 39px;
     margin-left: 10px;
     margin-top: -55px;
     float: left;
@@ -397,3 +397,95 @@ button:hover {
 button:selection {
 
 } 
+
+/* =============================================================================================================================== */
+
+@media screen and (max-width: 980px){
+    body {
+        /* max-width: 100%; */
+        /* background-color: aqua; */
+    }
+
+    header {
+        max-width: 100%;
+        /* height: 80px; */
+    }
+
+    .title {
+        max-width: 100%;
+        /* max-width: 960px; */
+        /* margin-left: 40px; */
+        margin-right: 40px;
+    
+    }
+
+    .yourname {
+        margin-left: 40px;
+        width: 240px;
+    }
+
+
+
+    .content {
+        max-width: 545px;
+        margin-left: 40px;
+    }
+
+    .portfolioimages {
+        margin: auto;
+        padding: 0%;
+    }
+
+    #namefield {
+        width: 485px;
+    }
+    
+    #emailfield {
+        width: 485px;
+    }
+
+    #messagetext {
+        max-width: 485px;
+        min-width: 485px;
+        max-height: 175px;
+    }
+
+
+
+}
+
+/* =============================================================================================================================== */
+
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: aqua;
+
+    }
+
+
+
+    .yourname {
+        /* margin-left: 40px; */
+        width: 192px;
+    }
+
+
+}
+
+/* =============================================================================================================================== */
+
+@media screen and (max-width: 640px){
+    body {
+        background-color: orange;
+
+    }
+
+
+    .yourname {
+        /* margin-left: 40px; */
+        width: 160px;
+    }
+
+
+}
