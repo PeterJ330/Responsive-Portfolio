@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-Homework #2
+Portfolio URL - https://PeterJ330.github.io/Responsive-Portfolio/
